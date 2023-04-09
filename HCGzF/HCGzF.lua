@@ -219,11 +219,15 @@ function frame:CHAT_MSG_SYSTEM()
 	local _, _, ripPlayer, ripEnemy, ripLevel = string.find(message, "(%a+) has fallen to (.+ %(level %d+%)) at level (%d+)")
 	if ripPlayer == nil then
 		_, _, ripPlayer, ripEnemy, ripLevel = string.find(message, "(%a+) has fallen in PvP to (%a+) at level (%d+)")
-		ripEnemy = ripEnemy.." (PvP)"
+		if ripEnemy ~= nil then
+			ripEnemy = ripEnemy.." (PvP)"
+		end
 	end
 	if ripPlayer == nil then
-		_, _, ripPlayer, _, ripLevel = string.find(message, "(%a+) died of natural causes at level (%d+)")
-		ripEnemy = "Natural causes (drowned, poisoned)"
+		_, _, ripPlayer, ripLevel = string.find(message, "(%a+) died of natural causes at level (%d+)")
+		if ripEnemy ~= nil then
+			ripEnemy = "Natural causes (drowned, poisoned)"
+		end
 	end
 	
 	
