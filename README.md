@@ -2,7 +2,7 @@
 Аддон для Turtle WoW.
 Показывает уведомления при получении уровня, или сметрях HC-игроков.
 
-![Preview1](https://raw.githubusercontent.com/Steelbash/HCGzF/main/gz.png)
+![Preview1](https://raw.githubusercontent.com/Steelbash/HCGzF/main/gratz.png)
 
 For display value in XP, just mouse over the bar.
 
