@@ -4,8 +4,6 @@
 
 ![Preview1](https://raw.githubusercontent.com/Steelbash/HCGzF/main/gratz.png)
 
-For display value in XP, just mouse over the bar.
-
 ![Preview2](https://raw.githubusercontent.com/Steelbash/HCGzF/main/f.png)
 
 
