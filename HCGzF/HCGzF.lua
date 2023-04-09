@@ -226,7 +226,7 @@ function frame:CHAT_MSG_SYSTEM()
 	if ripPlayer == nil then
 		_, _, ripPlayer, ripLevel = string.find(message, "(%a+) died of natural causes at level (%d+)")
 		if ripPlayer ~= nil then
-			ripEnemy = "Natural causes (drowned, poisoned)"
+			ripEnemy = "Natural causes"
 		end
 	end
 	
