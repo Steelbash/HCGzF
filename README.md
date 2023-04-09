@@ -13,6 +13,6 @@ Ctrl+Alt+Mouse Click - перемещение окна<br/>
 Mouse Click - закрывает окно
 
 ## Установка
-1. [Скачать HCGzF](https://github.com/Steelbash/HCGzF/releases/download/1.0.0/HCGzF.zip)
+1. [Скачать HCGzF](https://github.com/Steelbash/HCGzF/releases/download/1.0.2/HCGzF.zip)
 2. Распаковать ZIP в директорию Interface/AddOns.
 3. Перезапустить игру.
