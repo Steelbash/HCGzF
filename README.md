@@ -1,6 +1,7 @@
 # HCGzF
-Аддон для Turtle WoW.
-Показывает уведомления при получении уровня, или сметрях HC-игроков.
+Аддон для Turtle WoW.<br/>
+Показывает уведомления при получении уровня, или сметри HC-игрока.<br/>
+Уведомления только для согильдийцев.
 
 ![Preview1](https://raw.githubusercontent.com/Steelbash/HCGzF/main/gratz.png)
 
@@ -8,7 +9,7 @@
 
 
 ## Управление окном уведомления
-Ctrl+Alt+Mouse Click - перемещение окна
+Ctrl+Alt+Mouse Click - перемещение окна<br/>
 Mouse Click - закрывает окно
 
 ## Установка
